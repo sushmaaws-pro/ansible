@@ -1,7 +1,7 @@
 - name: PLAY-01
   hosts: frontend
   tasks:
-  - name: PLAY-01 and PLAY-01
+  - name: PLAY-01 and TASK-01
     ansible.builtin.debug:
     msg: "Hello from PLAY-01 and TASK-01"
 
